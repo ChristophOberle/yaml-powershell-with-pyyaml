@@ -4,7 +4,7 @@ read YAML config files into Powershell objects using python with PyYaml
 ## Motivation
 There is no native support for YAML files in Powershell.
 
-Some implementations are based on a .NET library, only available uner Windows.
+Some implementations are based on a .NET library, only available under Windows.
 
 This implementation uses python3 with the PyYaml package.
 

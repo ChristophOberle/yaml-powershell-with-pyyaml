@@ -46,3 +46,11 @@ you can retrieve the password like this:
 
 ``$password = $config.WillibaldChallenge_DataWarehouse.outputs.dev.password``
 
+or with parameters you can retrieve the user like this:
+
+```
+$profile ="WillibaldChallenge_DataWarehouse"
+$target = "dev"
+$user = $config."$profile".outputs."$target".user
+```
+

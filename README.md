@@ -20,7 +20,7 @@ Import the Powershell module YamlModule.psm1
 
 Read a YAML file into a Powershell object
 
-``$config = ConvertFrom-Yaml -ProgramDir <path to the json_from_yaml.py script> -YamlFile <path to the YAML file to be read>``
+``$config = ConvertFrom-Yaml -ProgramDir <path to the directory with the json_from_yaml.py script> -YamlFile <path to the YAML file to be read>``
 
 Assuming the YAML files starts like this:
 
